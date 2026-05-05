@@ -27,27 +27,30 @@
 - Cloudflare Pages project: `breakfreenow`, custom domain `breakfreenow.co` configured
 - Cloudflare Worker: `breakfreenow-contact-form` deployed at `breakfreenow-contact-form.david-vartanian.workers.dev`
 
+## Completed Tasks
+
+1. **Contact Form**
+   - Turnstile site key added to `src/pages/contact-me.astro`
+   - Worker secrets set: `TURNSTILE_SECRET_KEY`, `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, `RESEND_TO_EMAIL`
+   - GitHub repo secrets added: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
+   - Worker tested and working
+
+2. **GitHub Actions Deployment**
+   - Workflow `.github/workflows/deploy.yml` created
+   - Auto-deploys on push to main, verified working
+   - Preview URL: https://cb737a03.breakfreenow.pages.dev
+
 ## Remaining Tasks
 
-1. **Contact Form Credentials**
-   - Add Cloudflare Turnstile site key to `src/pages/contact-me.astro` (replace `0x0` placeholder)
-   - Set worker secrets via `wrangler secret put`:
-     - `TURNSTILE_SECRET_KEY`
-     - `RESEND_API_KEY`
-     - `RESEND_FROM_EMAIL`
-     - `RESEND_TO_EMAIL`
-   - Create Cloudflare API token for GitHub Actions and add to repo secrets:
-     - `CLOUDFLARE_API_TOKEN`
-     - `CLOUDFLARE_ACCOUNT_ID` = `35ba190befd04427fa75369fec807d17`
+1. **Domain Switch**
+   - WordPress site still serving at `breakfreenow.co`
+   - Need to update DNS to point to Cloudflare Pages before switching traffic
+   - May need CNAME record for `breakfreenow.co`
 
 2. **Styling & Polish**
    - Improve overall design (currently minimal)
    - Better typography
    - Blog list page styling
-
-3. **Deployment**
-   - Custom domain DNS may need CNAME record for `breakfreenow.co` pointing to Pages
-   - Verify GitHub Actions deployment works after adding API token
 
 ## Project Structure
 
