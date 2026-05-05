@@ -101,7 +101,6 @@ This doesn't mean corporate employment is inherently wrong. It means we need to 
 
 The best time to build your independence infrastructure is while you still have the safety net of employment. Don't wait for a layoff or restructuring to realize that what you thought was security was actually high-risk dependency.
 
-![Break free from the job security myth: liberty, freedom, independence.](images/1035481-1024x718.jpg)
 
 ## Take Control of Your Professional Future
 

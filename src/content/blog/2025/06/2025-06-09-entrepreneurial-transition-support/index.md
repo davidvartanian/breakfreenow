@@ -48,7 +48,6 @@ Entrepreneurship thrives on connection, and sharing your story builds trust and 
 
 A solid intimate circle doesn’t just help at the start—it carries you far, and as your business grows, challenges shift. A friend might offer fresh ideas when you hit a wall, and a coach can refine your long-term goals. A therapist can keep you balanced as pressure builds, while the GEM 2023 report shows entrepreneurs with ongoing support are 20% more likely to scale their ventures. This isn’t about quick fixes; it’s about a network that evolves with you. Corporate life might offer a paycheck, but it rarely builds lasting bonds. Instead, it leaves you with a revolving door of colleagues, each new face a reminder of isolation. Your intimate circle, though, grows with your success, celebrating every milestone.
 
-![Build your entrepreneurial transition support network](images/8790799-1024x684.jpeg)
 
 ## Conclusion: Ignite Your Shift with Entrepreneurial Transition Support
 

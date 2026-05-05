@@ -51,7 +51,6 @@ This means embracing independence. Start a solo venture, a small business, or an
 
 Moreover, when more people take this path, society becomes stronger. Small businesses and solo ventures create resilience. They spread opportunity and reduce the risks that come from relying on a few big employers or government programs. As more professionals choose independence, they set an example for the next generation. They show that it’s possible to live by your values, take responsibility, and still thrive.
 
-![A reminder that true Freedom and Responsibility comes from the teachings of Jesus and the price was his own blood.](images/671379-1024x768.jpg)
 
 ## Conclusion
 

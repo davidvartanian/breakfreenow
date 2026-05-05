@@ -52,7 +52,6 @@ A solid plan lifts you past the jump, and as your business grows, it shifts. Rev
 
 Setbacks test your resolve, and failure is part of the ride. A delayed launch or lost savings might shake you, but it’s a chance to learn. Lean on your circle—a friend can suggest a pivot, and a coach can refine your pitch. The Entrepreneur study notes 30% of planners adjust after flops, gaining strength. A stable job offers a cushion, yet it delays action. Your corporate escape planning turns obstacles into steps, so embrace the lessons and push on.
 
-![Plan your corporate escape today!](images/669986-1024x681.jpeg)
 
 ## Conclusion: Embrace Your Path with Corporate Escape Planning
 

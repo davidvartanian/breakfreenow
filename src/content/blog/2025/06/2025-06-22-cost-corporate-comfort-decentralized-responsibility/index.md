@@ -50,7 +50,6 @@ The stories of those who’ve left corporate comfort behind are as varied as the
 
 What unites them is a willingness to take responsibility for their own futures—and, by extension, to reduce the burden on society. They’re not waiting for someone else to solve the pension crisis, or to guarantee their security. They’re building it themselves, one project, one client, one day at a time.
 
-![Illuminated skyscrapers and bustling urban life symbolizing decentralized power of avoiding the societal cost of corporate comfort.](images/1036657-1024x683.jpeg)
 
 ## Conclusion
 

@@ -75,7 +75,6 @@ This means asking not just "What will I regret?" but also "What responsibilities
 
 I've found that when I evaluate career decisions through this combined lens of regret minimization and values alignment, the path forward becomes much clearer. It's not about choosing between security and adventure, or between responsibility and freedom. It's about finding the intersection where your capabilities, your values, and your long-term vision converge, even when that means accepting short-term financial costs or strategic waiting periods.
 
-![Fulfilled elderly couple receives gifts and love from family because they broke free from golden handcuffs early in life](images/7922181-1024x683.jpeg)
 
 ## Taking Action Before Time and Energy Wane
 

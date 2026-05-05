@@ -66,7 +66,6 @@ But you don't have to go down with these sinking ships. The same technology that
 
 The barriers that once protected big companies are inefficient systems, the distribution networks and information asymmetries, have crumbled. Now the advantages belong to the small, the fast, and the adaptable.
 
-![speedboat faster than cargo ship symbolising that small machinery moves faster same as big companies are inefficient](images/28648190-1024x683.jpeg)
 
 ## The Future Belongs to the Small
 

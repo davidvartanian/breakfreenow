@@ -68,7 +68,6 @@ It is not easy to go against what you have always been told. Friends and family 
 
 Entrepreneurship is not just for the young. Anyone who wants to take control of their life can do it. By choosing economic efficiency through self-responsibility, you are building a better future for yourself and for others.
 
-![Every gear makes economic efficiency through self-responsibility possible](images/159298-1024x684.jpeg)
 
 ## Conclusion
 

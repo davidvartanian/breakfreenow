@@ -14,7 +14,6 @@ tags:
 heroImage: "./images/generated_image_1cf10923.jpg"
 ---
 
-![Minimalistic visual of Adam's stewardship and dominion representing the Cultural Mandate.](images/generated_image_1cf10923.jpg)
 
 I used to view my work as a necessary evil. Monday mornings felt like a heavy burden. I simply wanted to survive until the weekend. Perhaps you feel this same tension right now. You might believe your "real" spiritual life happens only on Sundays. _However_, this mindset completely misses the point of our existence. I eventually discovered a concept that changed everything for me. It is called the Cultural Mandate.
 
@@ -74,7 +73,6 @@ _Additionally_, I must reject the fear of man. Bayne had to ignore the expectati
 
 _Finally_, they realized that their work matters to God. It is not just a way to pay bills. _It is_ a way to worship. _As a result_, their daily tasks became infused with meaning. This is the essence of the Cultural Mandate. It turns the mundane into the miraculous.
 
-![Happy entrepreneur embracing ownership and purpose to fulfill the Cultural Mandate.](images/generated_image_7b1c18d0.png)
 
 ## Embracing Your True Calling
 

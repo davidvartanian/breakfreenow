@@ -112,7 +112,6 @@ The professionals who successfully find purpose-driven work maintain momentum wi
 
 That's perhaps the most important shift in mindset: your calling isn't hiding somewhere waiting to be found. It's something you build through the intersection of your skills, your values, and the problems that matter to you.
 
-![Senior professional in cafe working, drinking coffee. Finding your calling and reinventing yourself.](images/2182969-1024x683.jpeg)
 
 ## Finding Meaning in Your Professional Transition
 

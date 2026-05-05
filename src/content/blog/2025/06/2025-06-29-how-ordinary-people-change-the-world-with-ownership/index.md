@@ -53,7 +53,6 @@ I’m writing this blog as I learn and start taking action to break free myself.
 
 The window of opportunity is now. The longer you wait, the harder it becomes to break free from the inertia of comfort. The world needs people who are willing to take ownership, to step up and solve problems, to create value where none existed before. You don’t have to change the entire world overnight. Start with one problem, one idea, one step. The act of ownership is what sets you free.
 
-![How Ordinary People Change the World with Ownership: The steering wheel is waiting for you,](images/12355827-1024x768.jpeg)
 
 ## Lessons Learned and Your Next Step
 

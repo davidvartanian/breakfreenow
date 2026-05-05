@@ -66,7 +66,6 @@ The most resilient people I know have built a portfolio of skills, clients, and 
 
 Security comes from knowing you can handle change. It is about being prepared for whatever comes, not just hoping things will stay the same. When you invest in yourself, you build a foundation that no company can take away.
 
-![Solo entrepreneur happily talking with one of his customers after he decided to no longer pursue corporate comfort.](images/3799124-1024x683.jpeg)
 
 ## Making the Leap
 

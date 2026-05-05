@@ -83,7 +83,6 @@ Here's what I've learned from watching hundreds of professionals navigate this d
 
 Your 80-year-old self is counting on the decisions you make today. The security that feels so important now will feel meaningless if it prevented you from pursuing work that could have created lasting impact and personal fulfillment. The question isn't whether you'll face some career regret (we all do) but whether you'll regret taking calculated risks or avoiding them entirely.
 
-![Cheerful senior man enjoying tea while relaxing indoors. He won't regret because he tried.](images/7545048-1024x683.jpeg)
 
 ## Take Action Before Regret Sets In
 

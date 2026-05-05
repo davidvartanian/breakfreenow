@@ -56,7 +56,6 @@ The biggest risk isn’t failing. It’s waiting too long to start. Every year y
 
 I know it’s scary. I’m still figuring it out myself. But the alternative, trusting a system that’s already showing signs of collapse, feels a lot scarier.
 
-![Elderly couple on a dhow enjoying a sunny beach day after successfully  escaping the pension trap.](images/29889204-1024x683.jpeg)
 
 ## Conclusion
 

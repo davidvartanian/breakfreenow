@@ -48,7 +48,6 @@ A shifted mindset lasts, and growth shapes it over time. Check progress monthly,
 
 Setbacks test you, and a strong mind helps recovery. A venture might fail, or help might drop. Problem-solving tweaks your plan. Management keeps focus. Networking finds new friends. A 2023 Entrepreneur piece says 45% of mindset-shifted founders bounce back, like Mark Rivera who changed after a client loss. A job offers safety, but it stops growth. Joining a transition group, as many did post-2023 (Startup Journal, 2024), shares tips. Additionally, this strength builds your future.
 
-![Navigating psychological shift with mindfulness](images/7831960-1024x660.jpg)
 
 ## Conclusion: Embrace Navigating Psychological Shift
 

@@ -6,7 +6,7 @@
 - Content collections in `src/content.config.ts`:
   - `blog`: uses `glob` loader, schema has `title`, `description`, `author`, `image`, `date`, `updatedDate`, `heroImage`, `categories`, `tags`
   - `pages`: uses `glob` loader, schema has `title`, `date`
-- Blog posts: 22 WordPress-exported posts in `src/content/blog/` with `year/month/slug/index.md` structure. Each post has an `images/` subfolder with featured and inline images
+- Blog posts: 26 WordPress-exported posts + 1 starter post in `src/content/blog/` with `year/month/slug/index.md` structure. Each post has an `images/` subfolder with featured and inline images
 - Pages: 7 WordPress-exported pages in `src/content/pages/` with same structure:
   - `front_page` (renders as homepage), `blog` (skipped), `privacy-policy`, `about-me`, `cookie-policy`, `terms-of-service`, `my-philosophy`, `services`
 - Homepage (`src/pages/index.astro`): renders `front_page` content from pages collection
@@ -38,7 +38,7 @@
 2. **GitHub Actions Deployment**
    - Workflow `.github/workflows/deploy.yml` created
    - Auto-deploys on push to main, verified working
-   - Preview URL: https://cb737a03.breakfreenow.pages.dev
+   - Preview URL: https://76ac34de.breakfreenow.pages.dev
 
 3. **Featured Images**
    - Updated all 26 blog posts from `coverImage` to `heroImage` with relative paths

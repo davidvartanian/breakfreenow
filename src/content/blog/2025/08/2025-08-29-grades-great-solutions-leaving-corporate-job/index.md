@@ -76,7 +76,6 @@ I've learned from Sara, Whitney, and Michael that leaving corporate job security
 
 The traditional path promises security but delivers dependence. Entrepreneurship promises uncertainty but delivers autonomy. Sara spent two years building something meaningful while employed. Whitney overcame daily harassment to create sustainable impact. Michael strategically leveraged his expertise into independence. Each chose temporary discomfort over permanent dissatisfaction.
 
-![digital nomad, freelancer, mountains, remote, travel, coworking, leaving corporate job](images/5005249-1024x647.jpg)
 
 ## The Choice That Defines Your Next Decade
 

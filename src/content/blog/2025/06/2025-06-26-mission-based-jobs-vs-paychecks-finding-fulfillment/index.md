@@ -53,7 +53,6 @@ You don’t have to be a prophet or a saint to have a mission. Sometimes, it’s
 
 The Bible is full of ordinary people who did extraordinary things because they said “yes” to a mission. Moses was a stutterer, Paul was a persecutor, and yet their willingness to step out of their comfort zones changed history. Their stories remind us that fulfillment comes not from what we earn, but from what we give and the impact we make.
 
-![Senior businessman smiling made the right choice of working on mission-based jobs](images/3781944-1024x683.jpeg)
 
 ## Conclusion
 

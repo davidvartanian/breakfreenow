@@ -48,7 +48,6 @@ A free mindset lasts, and growth builds it over time. Check happy moments monthl
 
 Setbacks test you, and a free mind helps you bounce back. A venture might fail, or help might drop. Problem-solving fixes your plan. Management keeps you on track. Networking finds new friends. A 2023 Entrepreneur study shows 40% of free founders recover, like Laura Kim who adjusted after a slow start. A job feels safe, but it stops progress. Joining a support group, as many did post-2023 (Startup Journal, 2024), shares ideas. Additionally, this strength shapes your future.
 
-![Unshackling yourself](images/247851-1024x582.jpeg)
 
 ## Conclusion: Embrace Unshackling Yourself
 

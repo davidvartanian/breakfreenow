@@ -72,7 +72,6 @@ Seek wise counsel from others who've made similar transitions. The isolation of 
 
 Most importantly, develop a personal relationship with God that can sustain you through the uncertainties ahead. Entrepreneurship, even when divinely called, involves significant risks and failures. Your spiritual foundation must be stronger than your business plan.
 
-![Seeking God to move towards biblical calling entrepreneurship](images/ytatarufqm8-1024x683.jpg)
 
 ## Breaking Free from Golden Handcuffs Through Divine Purpose
 

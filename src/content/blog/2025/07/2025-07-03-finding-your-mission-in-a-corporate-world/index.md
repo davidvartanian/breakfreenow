@@ -49,7 +49,6 @@ You might wonder how to move from paycheck to purpose. The process begins with a
 
 Quitting your job immediately isn’t required. Instead, start small by volunteering, mentoring, or launching a side project. Testing the waters will help you discover what truly excites you. The goal is not to become a starving artist, but to align your work with your values and passions. Over time, you’ll find that the risks of leaving [corporate comfort](https://breakfreenow.co/2025/06/cost-corporate-comfort-decentralized-responsibility/) are outweighed by the rewards of living with purpose.
 
-![Introspection, clarity of purpose, and the idea that the "mission" is often an internal landscape that becomes clearer when one looks beyond the immediate as a symbol for finding your mission in a corporate world](images/7775617-1024x678.jpg)
 
 ## Conclusion
 

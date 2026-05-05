@@ -51,7 +51,6 @@ Breaking free from the false security of a paycheck isn’t about reckless risk-
 
 The world is changing. Corporate jobs aren’t as stable as they once seemed, and the old promise of “work hard, retire happy” is fading. In this new reality, independence is the safest investment you can make.
 
-![Courageous individual standing atop a rocky cliff with ocean view, embracing uncertainty, challenge, and freedom over the false security of a paycheck](images/2405041-1024x683.jpeg)
 
 ## Conclusion: Put an end to the false security of a paycheck
 

@@ -102,7 +102,6 @@ Are you prepared for the psychological challenges of problem ownership? Corporat
 
 What would you need to see in terms of early market validation to give yourself confidence that your entrepreneurial idea has potential? All three professionals I've discussed found ways to test their concepts and gather evidence that their expertise could solve real problems for real people. Think about what kind of early indicators would help you feel confident about moving forward.
 
-![Happy brewer in a craft brewery after he quit corporate job.](images/1267348-1024x849.jpeg)
 
 ## The Problem-Ownership Advantage Awaits
 
