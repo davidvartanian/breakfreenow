@@ -27,6 +27,6 @@ const page = Astro.props;
 const { Content } = await render(page);
 ---
 
-<Page title={page.data.title}>
+<Page title={page.data.title} description="">
   <Content />
 </Page>

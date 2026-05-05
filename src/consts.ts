@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Break Free Now';
 export const SITE_DESCRIPTION = 'Helping experienced professionals break free from golden handcuffs and transition to entrepreneurial freedom.';
+export const SITE_URL = 'https://breakfreenow.co';

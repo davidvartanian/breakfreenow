@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import LatestPosts from '../components/LatestPosts.astro';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const pages = await getCollection('pages');
 const frontPage = pages.find((p) => p.id.includes('front_page'));
@@ -18,7 +18,7 @@ const { Content } = await render(frontPage);
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description="" />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			main {
 				width: calc(100% - 2em);

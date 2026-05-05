@@ -5,7 +5,7 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href="/" class="site-title"><img src="/favicon.svg" alt="" class="site-logo" />{SITE_TITLE}</a></h2>
 		<input type="checkbox" id="nav-toggle" class="nav-toggle" />
 		<label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
 			<span></span>
@@ -67,6 +67,15 @@ import HeaderLink from './HeaderLink.astro';
 	h2 a.active {
 		text-decoration: none;
 		color: rgb(var(--black));
+	}
+	.site-title {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4em;
+	}
+	.site-logo {
+		height: 1.3em;
+		width: auto;
 	}
 	nav {
 		display: flex;
