@@ -6,7 +6,7 @@
 - Content collections in `src/content.config.ts`:
   - `blog`: uses `glob` loader, schema has `title`, `description`, `author`, `image`, `date`, `updatedDate`, `heroImage`, `categories`, `tags`
   - `pages`: uses `glob` loader, schema has `title`, `date`
-- Blog posts: 26 WordPress-exported posts + 1 starter post in `src/content/blog/` with `year/month/slug/index.md` structure. Each post has an `images/` subfolder with featured and inline images
+- Blog posts: 26 WordPress-exported posts in `src/content/blog/` with `year/month/slug/index.md` structure. Each post has an `images/` subfolder with featured and inline images
 - Pages: 7 WordPress-exported pages in `src/content/pages/` with same structure:
   - `front_page` (renders as homepage), `blog` (skipped), `privacy-policy`, `about-me`, `cookie-policy`, `terms-of-service`, `my-philosophy`, `services`
 - Homepage (`src/pages/index.astro`): Hero component + front_page content + LatestPosts component (6 latest posts)
@@ -56,6 +56,7 @@
    - Removed inline featured image duplicates from 26 blog posts
    - These were a WordPress workaround where featured images were inserted into post content
    - Blog posts now show heroImage only once (via BlogPost.astro layout)
+   - Restored legitimate inline content images that appeared before conclusion paragraphs
 
 7. **Homepage Redesign**
    - Added Hero component with headline, subtitle, and CTA buttons
@@ -80,7 +81,7 @@
     - Improved link hover states with underline
 
 11. **Featured Image Proportions**
-    - Set blog post hero images to 16:9 aspect ratio (1020x575)
+    - Set blog post hero images to 21:9 aspect ratio (1020x437)
     - Added `object-fit: cover` for consistent cover-style appearance
 
 12. **Mobile Responsiveness**
@@ -107,7 +108,7 @@
 src/
   components/       # Astro components (Header, Footer, BaseHead, etc.)
   content/
-    blog/           # 22 blog posts with images
+    blog/           # 26 blog posts with images
     pages/          # 7 static pages (front_page, about-me, services, etc.)
   layouts/
     BlogPost.astro  # Blog post layout
