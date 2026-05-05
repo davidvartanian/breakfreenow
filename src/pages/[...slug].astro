@@ -1,0 +1,32 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import Page from '../layouts/Page.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages
+    .filter((page) => {
+      const parts = page.id.split('/').filter((p) => p && p !== 'index' && !p.endsWith('.md'));
+      const last = parts.pop();
+      const slug = last ? last.replace(/^\d{4}-\d{2}-\d{2}-/, '') : page.id;
+      return slug !== 'front_page' && slug !== 'blog';
+    })
+    .map((page) => {
+      const parts = page.id.split('/').filter((p) => p && p !== 'index' && !p.endsWith('.md'));
+      const last = parts.pop();
+      const slug = last ? last.replace(/^\d{4}-\d{2}-\d{2}-/, '') : page.id;
+      return {
+        params: { slug },
+        props: page,
+      };
+    });
+}
+type Props = CollectionEntry<'pages'>;
+
+const page = Astro.props;
+const { Content } = await render(page);
+---
+
+<Page title={page.data.title}>
+  <Content />
+</Page>
