@@ -8,7 +8,7 @@ tags:
   - "entrepreneurial-skills"
   - "golden-handcuffs"
   - "planning-strategies"
-coverImage: "3772618.jpeg"
+heroImage: "./images/3772618.jpeg"
 ---
 
 I want you to imagine yourself at 80, sitting in your favorite chair, looking back on your career. What would you regret more: taking a calculated risk that didn't pan out exactly as planned, or staying safe and never knowing what could have been? This question haunts many experienced professionals I know, trapped in what I call the golden handcuffs dilemma. The security feels comfortable today, but the regret compounds over decades. The key to making peace with your 80-year-old self lies in understanding how to avoid career regret through systematic decision-making, not impulsive jumps.

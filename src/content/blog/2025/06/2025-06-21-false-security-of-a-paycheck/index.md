@@ -10,7 +10,7 @@ tags:
   - "freedom"
   - "purpose"
   - "solo-business"
-coverImage: "3831136.jpeg"
+heroImage: "./images/3831136.jpeg"
 ---
 
 For years, I believed the false security of a paycheck was the only way to live safely. I wasn’t alone. Many of us, especially in midlife, cling to the comfort of a steady salary, thinking it shields us from uncertainty. But what if that comfort is just a trap, quietly costing us our freedom, health, and sense of purpose?

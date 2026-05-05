@@ -11,7 +11,7 @@ tags:
   - "golden-handcuffs"
   - "purpose-seeking"
   - "unshackling-yourself"
-coverImage: "32006194.jpeg"
+heroImage: "./images/32006194.jpeg"
 ---
 
 Many suffer in high-paying jobs with hidden pain. Unshackling yourself can ease that toll from golden handcuffs. You might like good benefits, but misery, burnout, and worry build up. I’ve felt that load too. This post looks at those feelings, why you stay trapped, and ways to break free for purpose. It brings hope, clear steps, and encouragement. So, let’s begin this journey!

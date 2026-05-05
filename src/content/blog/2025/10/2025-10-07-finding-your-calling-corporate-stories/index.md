@@ -11,7 +11,7 @@ tags:
   - "purpose-driven-career"
   - "self-discovery"
   - "values-alignment"
-coverImage: "34129726.jpeg"
+heroImage: "./images/34129726.jpeg"
 ---
 
 I've spent years watching talented professionals wrestle with a question that keeps them up at night: "Is this really what I'm meant to do?" You've climbed the ladder, earned the promotions, and secured the paycheck that makes your friends envious. Yet something gnaws at you. Finding your calling isn't about abandoning everything you've built. It's about discovering how your accumulated expertise can serve a purpose that actually matters to you.

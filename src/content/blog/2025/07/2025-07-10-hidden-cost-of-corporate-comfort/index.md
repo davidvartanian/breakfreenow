@@ -11,7 +11,7 @@ tags:
   - "entrepreneurship"
   - "financial-independence"
   - "freedom"
-coverImage: "5971257.jpeg"
+heroImage: "./images/5971257.jpeg"
 ---
 
 The allure of corporate comfort has never been stronger, yet beneath its polished surface lies a troubling reality that's reshaping how we think about work, security, and personal freedom. While millions chase the promise of steady paychecks and comprehensive benefits, a growing number of professionals are discovering that this comfort comes at a price far steeper than they ever imagined.

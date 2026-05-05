@@ -10,7 +10,7 @@ tags:
   - "retirement-security"
   - "solo-business"
   - "unsustainable-pensions"
-coverImage: "590022.jpeg"
+heroImage: "./images/590022.jpeg"
 ---
 
 Many adults notice financial security slipping as pensions weaken. Financial independence invites you to face the uncertainty ahead, and we’re in the same boat, sharing that worry. This journey shows why self-reliance matters now, mixing trends and personal thoughts to guide you to solo ventures or a single business. It offers clear ideas, real examples, and a nudge to act. So, let’s shape your future together!

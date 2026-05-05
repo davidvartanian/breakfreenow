@@ -9,7 +9,7 @@ tags:
   - "burnout-recovery"
   - "corporate-transition"
   - "entrepreneurship"
-coverImage: "8636636.jpeg"
+heroImage: "./images/8636636.jpeg"
 ---
 
 I spent years believing the lie we're all taught: study hard, get good grades, land a secure job, and you'll be successful. But I've discovered something that changes everything. The "grades game" is a rigged system that traps talented professionals in golden handcuffs, trading authentic fulfillment for the illusion of security.

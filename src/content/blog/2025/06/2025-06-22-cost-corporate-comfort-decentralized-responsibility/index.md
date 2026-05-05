@@ -11,7 +11,7 @@ tags:
   - "financial-independence"
   - "smes"
   - "solo-business"
-coverImage: "cety6kedjuy.jpg"
+heroImage: "./images/cety6kedjuy.jpg"
 ---
 
 The societal cost of corporate comfort is something we rarely talk about, but it’s quietly shaping our future. For decades, the comfort of a corporate job—steady paychecks, health insurance, and a sense of security—has been the dream. But as more of us age out of the workforce, and as the next generation faces a shrinking labor market, the true price of this comfort is becoming impossible to ignore.

@@ -7,7 +7,7 @@ tags:
   - "financial-freedom"
   - "golden-handcuffs"
   - "intimate-circle"
-coverImage: "mkoey7bbkku.jpg"
+heroImage: "./images/mkoey7bbkku.jpg"
 ---
 
 I've spent countless hours in corporate boardrooms watching brilliant professionals wrestle with a question that haunts high achievers: "Is this really what I'm meant to do?" The golden handcuffs are real. The salary, the benefits, the title, the security. But deep down, many of us sense we're called to something more significant than quarterly targets and performance reviews. For those who share a biblical worldview, this tension becomes even sharper. What if God has actually equipped you with entrepreneurial gifts that your corporate role barely scratches? What if your sense of unrest isn't restlessness, but biblical calling entrepreneurship trying to break through?

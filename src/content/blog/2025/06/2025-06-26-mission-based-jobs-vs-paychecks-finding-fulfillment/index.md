@@ -10,7 +10,7 @@ tags:
   - "meaning"
   - "mission-based-jobs"
   - "purpose"
-coverImage: "klnpwlkgezo.jpg"
+heroImage: "./images/klnpwlkgezo.jpg"
 ---
 
 Let’s be honest: most of us didn’t dream of becoming “Senior Vice President of Quarterly Reports” when we were kids. Yet, here we are, decades later, measuring our worth by the size of our paychecks and the shininess of our job titles. If you’re like me, you might have started to wonder if there’s more to life than compensation-based work. That’s where mission-based jobs come in—roles that offer a sense of purpose and fulfillment beyond just a paycheck.

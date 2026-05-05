@@ -10,7 +10,7 @@ tags:
   - "freedom"
   - "independence"
   - "responsibility"
-coverImage: "8029314.png"
+heroImage: "./images/8029314.png"
 ---
 
 Freedom. It’s a word we hear often—especially when you’re stuck in an office, watching the clock tick toward another pointless meeting. Yet, what does _true freedom and responsibility_ really mean, especially for those of us who’ve spent years trading our time for a steady paycheck?

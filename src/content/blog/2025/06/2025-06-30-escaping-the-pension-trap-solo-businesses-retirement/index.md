@@ -11,7 +11,7 @@ tags:
   - "retirement-planning"
   - "self-reliance"
   - "solo-business"
-coverImage: "30037367.jpeg"
+heroImage: "./images/30037367.jpeg"
 ---
 
 If you’re like me, you might be thinking about escaping the pension trap. Somewhere in the middle of your career, with a decent job, a few perks, and a nagging sense that the future isn’t as secure as it used to be, you’ve probably wondered: will my pension actually be there when I need it? I used to believe that if I worked hard and paid my taxes, the system would take care of me. But lately, the cracks in that system are starting to show, and they’re getting wider.

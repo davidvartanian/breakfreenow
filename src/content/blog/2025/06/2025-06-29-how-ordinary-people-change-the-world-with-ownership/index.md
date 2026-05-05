@@ -10,7 +10,7 @@ tags:
   - "ownership"
   - "personal-mission"
   - "solo-business"
-coverImage: "3760132.jpeg"
+heroImage: "./images/3760132.jpeg"
 ---
 
 A quote from Steve Jobs has been echoing in my mind: “Everything you see around you was made by people no smarter than you.” If you’re an experienced professional with a comfortable life, some prestige, and a decent financial situation, but you feel that burning inside for not doing what you’re truly meant to do, you’re not alone. That feeling is more common than you might think. The real way to change the world isn’t about privilege or power. Instead, it’s about how ordinary people change the world with ownership.

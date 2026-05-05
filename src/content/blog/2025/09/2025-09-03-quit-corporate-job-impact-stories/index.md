@@ -9,7 +9,7 @@ tags:
   - "corporate-to-entrepreneur"
   - "golden-handcuffs"
   - "problem-ownership"
-coverImage: "7433860.jpeg"
+heroImage: "./images/7433860.jpeg"
 ---
 
 Steve Jobs once said that ordinary people can have an extraordinary impact when they take ownership of problems that matter. I think about this quote often when I meet talented corporate professionals who feel trapped by their own success being unable to quit their corporate job. You have the expertise, the network, and the skills to solve meaningful problems. Yet here you are, spending your days solving someone else's problems while your own ideas gather dust in the corner of your mind.

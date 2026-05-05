@@ -11,7 +11,7 @@ tags:
   - "entrepreneurial-journey"
   - "planning-strategies"
   - "project-attachment"
-coverImage: "682422.jpeg"
+heroImage: "./images/682422.jpeg"
 ---
 
 Stuck in a comfy job? Corporate escape planning can light the way. You might adore your current project, but that love can hold you back. “Golden handcuffs” describe a well-paid job that traps you, fearing a financial drop if you leave. I’ve felt that pull too. So, this post shows how corporate escape planning with deadlines and a timeline breaks that chain. It covers beating delays, handling project ties, and real stories to spark action. Let’s start this journey together.

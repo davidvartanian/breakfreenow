@@ -10,7 +10,7 @@ tags:
   - "career-fulfillment"
   - "career-transition"
   - "christian-values"
-coverImage: "8964176.jpeg"
+heroImage: "./images/8964176.jpeg"
 ---
 
 I've watched too many brilliant professionals stay trapped in roles they've outgrown, not because they lack vision or courage, but because they can't see past the golden handcuffs that bind them. The stock options, the vesting schedules, the annual bonuses, they all create a web of financial incentives that makes leaving feel impossible. But here's what I've learned: true freedom isn't the absence of responsibility, it's the ability to choose your responsibilities.

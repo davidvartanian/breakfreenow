@@ -11,7 +11,7 @@ tags:
   - "ownership"
   - "purpose-driven-career"
   - "responsibility"
-coverImage: "generated_image_1cf10923.jpg"
+heroImage: "./images/generated_image_1cf10923.jpg"
 ---
 
 ![Minimalistic visual of Adam's stewardship and dominion representing the Cultural Mandate.](images/generated_image_1cf10923.jpg)

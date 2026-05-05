@@ -11,7 +11,7 @@ tags:
   - "emotional-strength"
   - "entrepreneurial-support"
   - "intimate-circle"
-coverImage: "376kn_isple.jpg"
+heroImage: "./images/376kn_isple.jpg"
 ---
 
 Starting a new business can feel heavy without entrepreneurial transition support from the start, and you might be fed up with the corporate grind. Dreaming of a solo venture stings without backup, so that big paycheck acts like a trap—known as “golden handcuffs,” it’s a high-paying job that holds you back. You fear the financial drop if you leave, but I’ve felt that doubt too. Therefore, this post digs into why an intimate circle lifts you up, and how it turns your bold choice into a success. So, let’s explore real stories to spark your shift, and find that strength together.

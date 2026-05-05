@@ -10,7 +10,7 @@ tags:
   - "career-fulfillment"
   - "career-shift"
   - "career-transition"
-coverImage: "18312985.jpeg"
+heroImage: "./images/18312985.jpeg"
 ---
 
 I spent years believing that my corporate salary was security. The bigger the paycheck, the company logo, prestige, and the benefits package, the safer I felt. But after watching three senior executives I know personally navigate unexpected career disruptions, I realized something unsettling: the job security myth we've all been sold is actually high-risk dependency. The very thing we think protects us can become the golden handcuffs that leave us more vulnerable than we ever imagined.

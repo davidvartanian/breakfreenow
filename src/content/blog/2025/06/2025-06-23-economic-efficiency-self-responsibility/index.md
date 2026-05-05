@@ -11,7 +11,7 @@ tags:
   - "entrepreneurship"
   - "independence"
   - "self-responsibility"
-coverImage: "3081415.jpeg"
+heroImage: "./images/3081415.jpeg"
 ---
 
 For a long time, many of us believed adulthood was simple. You study hard, get good grades, find a steady job, and work until retirement. This plan promised safety and happiness. But the world has changed. Now, the meaning of adulthood is changing too. Economic efficiency through self-responsibility is becoming the new way forward.

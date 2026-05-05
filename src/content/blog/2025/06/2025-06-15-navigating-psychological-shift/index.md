@@ -11,7 +11,7 @@ tags:
   - "entrepreneurial-mindset"
   - "golden-handcuffs"
   - "navigating-psychological-shift"
-coverImage: "9063397.jpeg"
+heroImage: "./images/9063397.jpeg"
 ---
 
 Many feel tired from high-status jobs and want change. Navigating psychological shift can free you from golden handcuffs. You might love a big title, but it brings burnout and fear of letting go. I’ve felt that tiredness too. This post covers beating fear of failure, [moving beyond job titles](https://breakfreenow.co/2025/06/finding-your-purpose/), and shifting your mindset for business. It gives hope, easy steps, and ideas. So, let’s take this step together!

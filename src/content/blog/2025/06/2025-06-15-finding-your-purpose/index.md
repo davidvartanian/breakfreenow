@@ -11,7 +11,7 @@ tags:
   - "finding-your-purpose"
   - "golden-handcuffs"
   - "life-purpose"
-coverImage: "idzkdni7qgc.jpg"
+heroImage: "./images/idzkdni7qgc.jpg"
 ---
 
 Many wonder if meaning lies beyond a high-paying job. Finding your purpose can free you from golden handcuffs. You might enjoy a big paycheck, but it traps you with fear of change. I’ve felt that worry too. This post helps you find core values and interests, using them to build a fulfilling path—be it a business or new career. It offers hope, deep insights, and a push to act. So, let’s start this journey together!

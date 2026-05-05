@@ -10,7 +10,7 @@ tags:
   - "corporate-life"
   - "mission"
   - "purpose"
-coverImage: "1203808.jpeg"
+heroImage: "./images/1203808.jpeg"
 ---
 
 If you’re like me, you’ve probably wondered about finding your mission in a corporate world. There’s a moment in every career when the shine of a big paycheck starts to dull. I remember sitting in a glass-walled meeting room, watching the city lights flicker, and questioning if this was really it. The bonuses, the titles, the endless performance reviews. None of it seemed to fill the growing sense that I was meant for something more. For many, a life built on compensation alone is a life half-lived.
