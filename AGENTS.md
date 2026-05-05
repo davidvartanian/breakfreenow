@@ -17,11 +17,11 @@
 - Layouts: `BlogPost.astro` (for blog posts), `Page.astro` (for pages)
 - Components: BaseHead, Footer, FormattedDate, Header, HeaderLink
   - Header: "Break Free Now" title, nav links (Home, Blog, About, Services, My Philosophy, Contact), LinkedIn + Facebook social icons
-  - Footer: "David Vartanian" copyright, LinkedIn + Facebook social icons
+  - Footer: "David Vartanian" copyright, legal links (Privacy Policy, Cookie Policy, Terms of Service), LinkedIn + Facebook social icons
 - Contact form (`src/pages/contact-me.astro`): standalone page with form fields (Name, Email, Subject, Message, GDPR consent, Turnstile CAPTCHA)
 - Contact form worker (`workers/contact-form/`): Cloudflare Worker that verifies Turnstile token and sends email via Resend API
 - `src/consts.ts`: `SITE_TITLE = 'Break Free Now'`, updated description
-- Styles: `src/styles/global.css` is Bear Blog default CSS with Atkinson font via Astro font provider
+- Styles: `src/styles/global.css` is Bear Blog default CSS with Atkinson font via Astro font provider, accent color updated to warm orange
 - `astro.config.mjs`: site set to `https://breakfreenow.co`, uses MDX and sitemap integrations
 - Deployment: GitHub repo at `davidvartanian/breakfreenow`, GitHub Actions workflow at `.github/workflows/deploy.yml`
 - Cloudflare Pages project: `breakfreenow`, custom domain `breakfreenow.co` configured
@@ -40,6 +40,18 @@
    - Auto-deploys on push to main, verified working
    - Preview URL: https://cb737a03.breakfreenow.pages.dev
 
+3. **Featured Images**
+   - Updated all 26 blog posts from `coverImage` to `heroImage` with relative paths
+   - Blog list now shows thumbnails
+   - Blog post view now shows hero image
+
+4. **Footer Links**
+   - Added Privacy Policy, Cookie Policy, Terms of Service links to footer
+
+5. **Minimal Styling**
+   - Updated accent color from blue to warm orange
+   - Mobile nav improvements
+
 ## Remaining Tasks
 
 1. **Domain Switch**
@@ -51,6 +63,10 @@
    - Improve overall design (currently minimal)
    - Better typography
    - Blog list page styling
+
+3. **Image Quality Verification**
+   - Verify image quality from exported content is acceptable
+   - Some images may need replacement or re-export at higher quality
 
 ## Project Structure
 
