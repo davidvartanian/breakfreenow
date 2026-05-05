@@ -39,12 +39,11 @@ const { title, description, date, updatedDate, heroImage } = Astro.props;
                 width: 720px;
                 max-width: calc(100% - 2em);
                 margin: auto;
-                padding: 1em;
+                padding: 0 1em 1em;
                 color: rgb(var(--gray-dark));
             }
             .title {
-                margin-bottom: 1em;
-                padding: 1em 0;
+                padding: 1.5em 1em 0.5em;
                 text-align: center;
                 line-height: 1;
             }
@@ -52,7 +51,7 @@ const { title, description, date, updatedDate, heroImage } = Astro.props;
                 margin: 0 0 0.5em 0;
             }
             .date {
-                margin-bottom: 0.5em;
+                margin-top: 0.5em;
                 color: rgb(var(--gray));
             }
             .last-updated-on {
@@ -65,6 +64,21 @@ const { title, description, date, updatedDate, heroImage } = Astro.props;
         <Header />
         <main>
             <article>
+                <div class="title">
+                    <h1>{title}</h1>
+                    <div class="date">
+                        <FormattedDate date={date} />
+                        {
+                            updatedDate && (
+                                <div class="last-updated-on">
+                                    Last updated on{" "}
+                                    <FormattedDate date={updatedDate} />
+                                </div>
+                            )
+                        }
+                    </div>
+                    <hr />
+                </div>
                 <div class="hero-image">
                     {
                         heroImage && (
@@ -78,21 +92,6 @@ const { title, description, date, updatedDate, heroImage } = Astro.props;
                     }
                 </div>
                 <div class="prose">
-                    <div class="title">
-                        <div class="date">
-                            <FormattedDate date={date} />
-                            {
-                                updatedDate && (
-                                    <div class="last-updated-on">
-                                        Last updated on{" "}
-                                        <FormattedDate date={updatedDate} />
-                                    </div>
-                                )
-                            }
-                        </div>
-                        <h1>{title}</h1>
-                        <hr />
-                    </div>
                     <slot />
                 </div>
             </article>
