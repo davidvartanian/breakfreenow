@@ -2,51 +2,87 @@
 
 ## Current State
 
-- Astro v6.2.2 project based on Astro blog starter template
+- Astro v6.2.2 static site based on Astro blog starter template
 - Content collections in `src/content.config.ts`:
   - `blog`: uses `glob` loader, schema has `title`, `description`, `author`, `image`, `date`, `updatedDate`, `heroImage`, `categories`, `tags`
-  - `pages`: schema only (`title`, `date`), no loader defined yet
+  - `pages`: uses `glob` loader, schema has `title`, `date`
 - Blog posts: 22 WordPress-exported posts in `src/content/blog/` with `year/month/slug/index.md` structure. Each post has an `images/` subfolder with featured and inline images
-- Pages: 8 WordPress-exported pages already copied to `src/content/pages/` with same `year/month/slug/index.md` structure:
-  - `front_page`, `blog`, `contact-me`, `privacy-policy`, `about-me`, `cookie-policy`, `terms-of-service`, `my-philosophy`, `services`
-- Homepage (`src/pages/index.astro`): still Astro starter template content, not using exported `front_page` content
-- About page (`src/pages/about.astro`): hardcoded lorem ipsum template, not using exported `about-me` page
-- Blog index (`src/pages/blog/index.astro`): sorts by `pubDate` but blog schema uses `date` field (bug)
-- Blog post route (`src/pages/blog/[...slug].astro`): dynamic routing works via `getStaticPaths` using `post.id`
-- Layouts: only `BlogPost.astro`. No `Page.astro` layout yet
-- Components: BaseHead, Footer, FormattedDate, Header, HeaderLink. All still contain Astro starter defaults (social links, site title)
-- Contact form: exported contact form fields exist in `docs/wordpress-export/output/custom/wpcf7_contact_form/`, but no implementation in site
-- `src/consts.ts`: `SITE_TITLE` and `SITE_DESCRIPTION` still have Astro starter defaults
+- Pages: 7 WordPress-exported pages in `src/content/pages/` with same structure:
+  - `front_page` (renders as homepage), `blog` (skipped), `privacy-policy`, `about-me`, `cookie-policy`, `terms-of-service`, `my-philosophy`, `services`
+- Homepage (`src/pages/index.astro`): renders `front_page` content from pages collection
+- About page (`src/pages/about.astro`): removed, now served via dynamic route using exported `about-me` page
+- Blog index (`src/pages/blog/index.astro`): sorts by `date`, renders posts with `heroImage`
+- Blog post route (`src/pages/blog/[...slug].astro`): dynamic routing via `getStaticPaths` using `post.id`
+- Pages route (`src/pages/[...slug].astro`): dynamic routing for all pages except `front_page` and `blog`
+- Layouts: `BlogPost.astro` (for blog posts), `Page.astro` (for pages)
+- Components: BaseHead, Footer, FormattedDate, Header, HeaderLink
+  - Header: "Break Free Now" title, nav links (Home, Blog, About, Services, My Philosophy, Contact), LinkedIn + Facebook social icons
+  - Footer: "David Vartanian" copyright, LinkedIn + Facebook social icons
+- Contact form (`src/pages/contact-me.astro`): standalone page with form fields (Name, Email, Subject, Message, GDPR consent, Turnstile CAPTCHA)
+- Contact form worker (`workers/contact-form/`): Cloudflare Worker that verifies Turnstile token and sends email via Resend API
+- `src/consts.ts`: `SITE_TITLE = 'Break Free Now'`, updated description
 - Styles: `src/styles/global.css` is Bear Blog default CSS with Atkinson font via Astro font provider
-- `astro.config.mjs`: site set to `https://example.com`, uses MDX and sitemap integrations
-- No deployment config yet
+- `astro.config.mjs`: site set to `https://breakfreenow.co`, uses MDX and sitemap integrations
+- Deployment: GitHub repo at `davidvartanian/breakfreenow`, GitHub Actions workflow at `.github/workflows/deploy.yml`
+- Cloudflare Pages project: `breakfreenow`, custom domain `breakfreenow.co` configured
+- Cloudflare Worker: `breakfreenow-contact-form` deployed at `breakfreenow-contact-form.david-vartanian.workers.dev`
 
 ## Remaining Tasks
 
-1. **Pages Collection**
-   - Create `pages` collection in `src/content/config.ts`
-   - Copy exported `pages/` folder to `src/content/pages/`
-   - Create page layout (`src/layouts/Page.astro`)
-   - Dynamic routing for pages
+1. **Contact Form Credentials**
+   - Add Cloudflare Turnstile site key to `src/pages/contact-me.astro` (replace `0x0` placeholder)
+   - Set worker secrets via `wrangler secret put`:
+     - `TURNSTILE_SECRET_KEY`
+     - `RESEND_API_KEY`
+     - `RESEND_FROM_EMAIL`
+     - `RESEND_TO_EMAIL`
+   - Create Cloudflare API token for GitHub Actions and add to repo secrets:
+     - `CLOUDFLARE_API_TOKEN`
+     - `CLOUDFLARE_ACCOUNT_ID` = `35ba190befd04427fa75369fec807d17`
 
-2. **Homepage**
-   - Make `src/content/pages/2025/06/26/2025-05-26-front_page/index.md` the homepage (`src/pages/index.astro`)
-
-3. **Contact Form**
-   - Handle the contact page from exported `custom/` or `pages/`
-   - Add working contact form (Cloudflare Turnstile or simple Formspree)
-
-4. **Styling & Polish**
-   - Improve overall design
-   - Mobile responsiveness
+2. **Styling & Polish**
+   - Improve overall design (currently minimal)
    - Better typography
+   - Blog list page styling
 
-5. **Deployment**
-   - GitHub Actions + Cloudflare Pages config
+3. **Deployment**
+   - Custom domain DNS may need CNAME record for `breakfreenow.co` pointing to Pages
+   - Verify GitHub Actions deployment works after adding API token
+
+## Project Structure
+
+```
+src/
+  components/       # Astro components (Header, Footer, BaseHead, etc.)
+  content/
+    blog/           # 22 blog posts with images
+    pages/          # 7 static pages (front_page, about-me, services, etc.)
+  layouts/
+    BlogPost.astro  # Blog post layout
+    Page.astro      # Generic page layout
+  pages/
+    index.astro     # Homepage (renders front_page content)
+    contact-me.astro # Contact form page
+    [...slug].astro # Dynamic routing for pages
+    blog/
+      index.astro   # Blog listing
+      [...slug].astro # Blog post routes
+  styles/
+    global.css      # Base styles
+workers/
+  contact-form/     # Cloudflare Worker for form processing
+    src/index.ts
+    wrangler.toml
+    package.json
+.github/workflows/
+  deploy.yml        # GitHub Actions -> Cloudflare Pages
+```
 
 ## Useful Commands
 - `npm run dev`
 - `npm run build`
 - `npm run preview`
+- `wrangler deploy --config workers/contact-form/wrangler.toml`
+- `wrangler pages deploy dist --project-name=breakfreenow`
 
 Project goal: Clean, fast, low-maintenance static blog.
