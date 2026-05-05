@@ -52,6 +52,11 @@
    - Updated accent color from blue to warm orange
    - Mobile nav improvements
 
+6. **Duplicate Featured Images Fixed**
+   - Removed inline featured image duplicates from 26 blog posts
+   - These were a WordPress workaround where featured images were inserted into post content
+   - Blog posts now show heroImage only once (via BlogPost.astro layout)
+
 ## Remaining Tasks
 
 1. **Domain Switch**
