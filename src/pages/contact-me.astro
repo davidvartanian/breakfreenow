@@ -36,36 +36,47 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 				margin-bottom: 0.5em;
 				font-weight: 700;
 			}
-			.form-group input,
-			.form-group textarea {
-				width: 100%;
-				padding: 0.75em;
-				font-size: 1rem;
-				border: 1px solid rgb(var(--gray-light));
-				border-radius: 4px;
-				font-family: var(--font-atkinson);
-			}
-			.form-group textarea {
-				min-height: 150px;
-				resize: vertical;
-			}
-			button[type="submit"] {
-				background: var(--accent);
-				color: white;
-				padding: 0.75em 2em;
-				font-size: 1rem;
-				border: none;
-				border-radius: 4px;
-				cursor: pointer;
-				font-family: var(--font-atkinson);
-			}
-			button[type="submit"]:hover {
-				background: var(--accent-dark);
-			}
-			button[type="submit"]:disabled {
-				opacity: 0.6;
-				cursor: not-allowed;
-			}
+		.form-group input,
+		.form-group textarea {
+			width: 100%;
+			padding: 12px;
+			font-size: 1rem;
+			border: 2px solid rgb(var(--gray-light));
+			border-radius: 6px;
+			font-family: inherit;
+			background: #ffffff;
+			transition: border-color 0.2s ease, box-shadow 0.2s ease;
+		}
+		.form-group input:focus,
+		.form-group textarea:focus {
+			outline: none;
+			border-color: var(--accent);
+			box-shadow: 0 0 0 3px rgba(196, 92, 38, 0.15);
+		}
+		.form-group textarea {
+			min-height: 150px;
+			resize: vertical;
+		}
+		button[type="submit"] {
+			background: var(--accent);
+			color: white;
+			padding: 12px 24px;
+			font-size: 1rem;
+			font-weight: 600;
+			border: 2px solid var(--accent);
+			border-radius: 8px;
+			cursor: pointer;
+			font-family: inherit;
+			transition: all 0.2s ease;
+		}
+		button[type="submit"]:hover {
+			background: var(--accent-dark);
+			border-color: var(--accent-dark);
+		}
+		button[type="submit"]:disabled {
+			opacity: 0.6;
+			cursor: not-allowed;
+		}
 			.form-status {
 				margin-top: 1em;
 				padding: 1em;

@@ -6,7 +6,8 @@
 
 :root {
 	--accent: #c45c26;
-	--accent-dark: #8a3d15;
+	--accent-dark: #a34b1f;
+	--accent-light: #f4a261;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -15,18 +16,21 @@
 	--box-shadow:
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
+	--bg-warm: #faf6f1;
+	--bg-cream: #f5f0e8;
+	--text-primary: #2d2d2d;
+	--text-secondary: #555555;
 }
 body {
 	font-family: var(--font-atkinson);
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
+	background: var(--bg-warm);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	color: var(--text-primary);
+	font-size: 18px;
 	line-height: 1.7;
 }
 main {
@@ -46,19 +50,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 2.5em;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 2em;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.5em;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.25em;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 strong,
 b {
@@ -66,9 +70,12 @@ b {
 }
 a {
 	color: var(--accent);
+	text-decoration: none;
+	transition: color 0.2s ease;
 }
 a:hover {
-	color: var(--accent);
+	color: var(--accent-dark);
+	text-decoration: underline;
 }
 p {
 	margin-bottom: 1em;
@@ -79,9 +86,57 @@ p {
 textarea {
 	width: 100%;
 	font-size: 16px;
+	padding: 12px;
+	border: 2px solid rgb(var(--gray-light));
+	border-radius: 6px;
+	background: #ffffff;
+	font-family: inherit;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 input {
 	font-size: 16px;
+	padding: 12px;
+	border: 2px solid rgb(var(--gray-light));
+	border-radius: 6px;
+	background: #ffffff;
+	font-family: inherit;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+textarea:focus,
+input:focus {
+	outline: none;
+	border-color: var(--accent);
+	box-shadow: 0 0 0 3px rgba(196, 92, 38, 0.15);
+}
+button,
+.btn {
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: inherit;
+	border: 2px solid var(--accent);
+	border-radius: 8px;
+	background: var(--accent);
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+button:hover,
+.btn:hover {
+	background: var(--accent-dark);
+	border-color: var(--accent-dark);
+	color: #ffffff;
+	text-decoration: none;
+}
+.btn-secondary {
+	background: transparent;
+	color: var(--accent);
+}
+.btn-secondary:hover {
+	background: var(--accent);
+	color: #ffffff;
 }
 table {
 	width: 100%;
@@ -115,10 +170,22 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.6;
 	}
 	main {
-		padding: 1em;
+		padding: 1.5em 1em;
+		width: 100%;
+		max-width: 100%;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.75em;
+	}
+	h3 {
+		font-size: 1.4em;
 	}
 }
 

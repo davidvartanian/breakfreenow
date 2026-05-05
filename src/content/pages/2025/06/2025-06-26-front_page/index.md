@@ -3,13 +3,7 @@ title: "Home"
 date: 2025-06-26
 ---
 
-# Break Free from Your Golden Handcuffs
-
 ## If not now, when?
-
-[Read More](/blog/)
-
-[Contact Me](/contact-me/)
 
 You've built an impressive career. You're earning well, you have the respect of colleagues, and on paper, everything looks perfect. But  
 there's something stirring inside you. A restless energy. A vision for something more.
@@ -24,7 +18,3 @@ The content below shares real stories, practical frameworks, and honest assessme
 corporate security to entrepreneurial freedom. Each piece is written from experience, not theory.
 
 Your breakthrough moment is closer than you think. The question isn't whether you have what it takes. The question is: **if not now, when?**
-
-## Latest Posts
-
-[All Blog Entries](/blog/)

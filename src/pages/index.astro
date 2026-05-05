@@ -3,6 +3,8 @@ import { getCollection, render } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import LatestPosts from '../components/LatestPosts.astro';
 import { SITE_TITLE } from '../consts';
 
 const pages = await getCollection('pages');
@@ -34,12 +36,14 @@ const { Content } = await render(frontPage);
 	</head>
 	<body>
 		<Header />
+		<Hero />
 		<main>
 			<article>
 				<div class="prose">
 					<Content />
 				</div>
 			</article>
+			<LatestPosts />
 		</main>
 		<Footer />
 	</body>

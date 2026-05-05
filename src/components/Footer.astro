@@ -40,10 +40,11 @@ const today = new Date();
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		padding: 2em 1em 3em 1em;
+		background: var(--bg-cream);
 		color: rgb(var(--gray));
 		text-align: center;
+		border-top: 1px solid rgba(var(--gray-light), 80%);
 	}
 	.legal-links {
 		display: flex;
@@ -72,5 +73,14 @@ const today = new Date();
 	}
 	.social-links a:hover {
 		color: rgb(var(--gray-dark));
+	}
+	@media (max-width: 720px) {
+		footer {
+			padding: 1.5em 1em;
+		}
+		.legal-links {
+			flex-direction: column;
+			gap: 0.5em;
+		}
 	}
 </style>
