@@ -43,6 +43,7 @@ Entrepreneurship isn’t a rom-com ending. Indeed, you might fail, but that’s 
 Think about it: every entrepreneur you admire failed first. Steve Jobs got booted from Apple before revolutionizing tech. His ousting wasn’t the end—it was a masterclass in resilience. Your own failures could be the same—raw material for a life you love. Genesis 1:28 isn’t just old wisdom—it’s a call to shape your world. Regret’s the real foe, lurking in the “what ifs” of a life unclaimed. You’ve got dreams shelved somewhere—maybe a coaching gig, a craft shop, or a blog like Jodi’s. Dust them off. The financial risks of entrepreneurship pale next to the cost of a soul stuck in a suit. Why settle for a paycheck when you could chase a purpose that lights you up?
 
 
+![Embrace failure and accept the financial risks of entrepreneurship, learn from it to have a meaningful life you'll be grateful for in the old age.](images/7360998-1024x768.jpg)
 ## Conclusion: Dare to Stumble
 
 The financial risks of entrepreneurship are no joke, but staying shackled risks your soul. Failure’s part of the ride—every entrepreneur trips, learns, and fights on. You’re not built to clock in for someone else’s vision; you’re made to create your own. Inspired by Jodi, Simran, and Adam, take a step toward your passion today. Comment with a dream you’ve buried, reach out via [Contact Me](https://breakfreenow.co/contact-me/), or share this on Medium to spark others. Let’s rewrite retirement—one bold leap at a time.
