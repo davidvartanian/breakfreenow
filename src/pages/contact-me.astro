@@ -96,13 +96,23 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 			.turnstile-container {
 				margin-bottom: 1.5em;
 			}
+			.checkbox-group label {
+				display: flex;
+				align-items: flex-start;
+				gap: 0.5em;
+				font-weight: normal;
+			}
+			.checkbox-group input {
+				width: auto;
+				margin-top: 0.2em;
+			}
 			@media (max-width: 720px) {
 				.prose {
 					padding: 0.5em;
 				}
 			}
 		</style>
-		<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+		<script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 	</head>
 	<body>
 		<Header />
@@ -145,13 +155,13 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 						<label for="message">Your Message <span aria-label="required">*</span></label>
 						<textarea id="message" name="message" required></textarea>
 					</div>
-					<div class="form-group">
+					<div class="form-group checkbox-group">
 						<label>
 							<input type="checkbox" name="gdpr" required />
 							I consent to my data being stored and processed per the <a href="/privacy-policy/">Privacy Policy</a>.
 						</label>
 					</div>
-					<div class="turnstile-container" data-turnstile-container></div>
+					<div class="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-callback="turnstileCallback"></div>
 					<button type="submit" id="submitBtn">Send Message</button>
 					<div class="form-status" id="formStatus"></div>
 				</form>
@@ -195,29 +205,20 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 		</main>
 		<Footer />
 
-		<script>
+		<script is:inline>
 			(function() {
 				const form = document.getElementById('contactForm');
 				const submitBtn = document.getElementById('submitBtn');
 				const status = document.getElementById('formStatus');
 				const workerUrl = form.dataset.workerUrl;
-				const turnstileKey = form.dataset.turnstileKey;
-				const turnstileContainer = document.querySelector('[data-turnstile-container]');
 
-				// Render Turnstile widget
-				if (window.turnstile && turnstileKey !== '0x0') {
-					window.turnstile.render(turnstileContainer, {
-						sitekey: turnstileKey,
-						callback: function(token) {
-							form.dataset.turnstileToken = token;
-						},
-					});
-				}
+				window.turnstileCallback = function(token) {
+					form.dataset.turnstileToken = token;
+				};
 
 				form.addEventListener('submit', async function(e) {
 					e.preventDefault();
 					status.className = 'form-status';
-					status.style.display = 'none';
 
 					const token = form.dataset.turnstileToken;
 					if (!token) {
