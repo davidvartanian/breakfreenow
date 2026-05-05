@@ -67,11 +67,35 @@ import HeaderLink from './HeaderLink.astro';
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
+	.internal-links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0;
+	}
 	.social-links,
 	.social-links a {
 		display: flex;
 	}
 	@media (max-width: 720px) {
+		nav {
+			flex-wrap: wrap;
+			padding: 0.5em 0;
+		}
+		h2 {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 0.5em;
+		}
+		.internal-links {
+			width: 100%;
+			justify-content: center;
+		}
+		.internal-links a {
+			padding: 0.5em 0.75em;
+			border-bottom: 2px solid transparent;
+			font-size: 0.9em;
+		}
 		.social-links {
 			display: none;
 		}

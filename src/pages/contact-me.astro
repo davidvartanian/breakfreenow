@@ -1,0 +1,259 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+
+const WORKER_URL = 'https://breakfreenow-contact-form.david-vartanian.workers.dev';
+const TURNSTILE_SITE_KEY = '0x0'; // Replace with your Cloudflare Turnstile site key
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Contact Me - ${SITE_TITLE}`} description="Get in touch with David Vartanian." />
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+				color: rgb(var(--gray-dark));
+			}
+			.contact-form {
+				margin-top: 2em;
+			}
+			.form-group {
+				margin-bottom: 1.5em;
+			}
+			.form-group label {
+				display: block;
+				margin-bottom: 0.5em;
+				font-weight: 700;
+			}
+			.form-group input,
+			.form-group textarea {
+				width: 100%;
+				padding: 0.75em;
+				font-size: 1rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 4px;
+				font-family: var(--font-atkinson);
+			}
+			.form-group textarea {
+				min-height: 150px;
+				resize: vertical;
+			}
+			button[type="submit"] {
+				background: var(--accent);
+				color: white;
+				padding: 0.75em 2em;
+				font-size: 1rem;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				font-family: var(--font-atkinson);
+			}
+			button[type="submit"]:hover {
+				background: var(--accent-dark);
+			}
+			button[type="submit"]:disabled {
+				opacity: 0.6;
+				cursor: not-allowed;
+			}
+			.form-status {
+				margin-top: 1em;
+				padding: 1em;
+				border-radius: 4px;
+				display: none;
+			}
+			.form-status.success {
+				background: #d4edda;
+				color: #155724;
+				display: block;
+			}
+			.form-status.error {
+				background: #f8d7da;
+				color: #721c24;
+				display: block;
+			}
+			.turnstile-container {
+				margin-bottom: 1.5em;
+			}
+			@media (max-width: 720px) {
+				.prose {
+					padding: 0.5em;
+				}
+			}
+		</style>
+		<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article class="prose">
+				<h1>Contact Me</h1>
+
+				<p>
+					I'd love to hear from you, especially if you're navigating the challenging transition from corporate success to entrepreneurial freedom. As someone currently walking this path myself, I understand the unique pressures, fears, and opportunities that come with leaving behind the golden handcuffs of a high-paying corporate role.
+				</p>
+
+				<h2>Why Reach Out?</h2>
+				<p>
+					Whether you're just starting to question your current path or actively planning your exit strategy, connecting with others on similar journeys can provide invaluable perspective. I'm particularly interested in hearing from experienced professionals who are:
+				</p>
+				<ul>
+					<li>Exploring entrepreneurial opportunities while maintaining their current roles</li>
+					<li>Struggling with the financial and psychological barriers to leaving corporate life</li>
+					<li>Looking for practical advice on building skills and networks for transition</li>
+					<li>Seeking accountability and support during their planning phase</li>
+				</ul>
+
+				<h2>Get In Touch</h2>
+				<p>Please use the contact form below for all inquiries. I've designed it to help me understand your situation and respond more effectively:</p>
+
+				<form class="contact-form" id="contactForm" data-worker-url={WORKER_URL} data-turnstile-key={TURNSTILE_SITE_KEY}>
+					<div class="form-group">
+						<label for="name">Your Name <span aria-label="required">*</span></label>
+						<input type="text" id="name" name="name" required />
+					</div>
+					<div class="form-group">
+						<label for="email">Your Email <span aria-label="required">*</span></label>
+						<input type="email" id="email" name="email" required />
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" />
+					</div>
+					<div class="form-group">
+						<label for="message">Your Message <span aria-label="required">*</span></label>
+						<textarea id="message" name="message" required></textarea>
+					</div>
+					<div class="form-group">
+						<label>
+							<input type="checkbox" name="gdpr" required />
+							I consent to my data being stored and processed per the <a href="/privacy-policy/">Privacy Policy</a>.
+						</label>
+					</div>
+					<div class="turnstile-container" data-turnstile-container></div>
+					<button type="submit" id="submitBtn">Send Message</button>
+					<div class="form-status" id="formStatus"></div>
+				</form>
+
+				<h2>Response Expectations</h2>
+				<p>
+					I personally read and respond to every message, typically within 48-72 hours during business days. For complex questions requiring research or detailed responses, please allow up to one week. I prioritize thoughtful, personalized responses over quick acknowledgments.
+				</p>
+
+				<h2>Alternative Contact Methods</h2>
+				<p>
+					Email Direct: For urgent matters or if you prefer email communication, reach me directly at david (at) breakfreenow.co.
+				</p>
+				<p>
+					LinkedIn: Connect with me for professional networking and ongoing conversation about career transitions and entrepreneurship <a href="https://www.linkedin.com/in/davidvartanian/">here</a>.
+				</p>
+				<p>
+					Social Media: Follow Break Free Now on <a href="https://www.facebook.com/profile.php?id=61577342136778">Facebook</a> for regular updates and community discussions.
+				</p>
+
+				<h2>What I Welcome</h2>
+				<p>I'm most helpful when discussing:</p>
+				<ul>
+					<li>Strategic career transition planning</li>
+					<li>Balancing corporate responsibilities with entrepreneurial preparation</li>
+					<li>Financial planning for income transitions</li>
+					<li>Building professional networks outside your current industry</li>
+					<li>Overcoming psychological barriers to major career changes</li>
+				</ul>
+
+				<h2>Professional Boundaries</h2>
+				<p>
+					While I'm committed to helping fellow professionals navigate these challenging transitions, please note that I provide perspective and guidance based on experience, not formal coaching or financial advisory services. For legal, tax, or investment decisions, I recommend consulting with qualified professionals.
+				</p>
+
+				<h2>Privacy Commitment</h2>
+				<p>
+					Your contact information and any details you share remain strictly confidential. I never share personal communications or use specific situations as content examples without explicit permission. Your trust in reaching out is something I take seriously. I look forward to connecting with you and supporting your journey toward professional and entrepreneurial freedom.
+				</p>
+			</article>
+		</main>
+		<Footer />
+
+		<script>
+			(function() {
+				const form = document.getElementById('contactForm');
+				const submitBtn = document.getElementById('submitBtn');
+				const status = document.getElementById('formStatus');
+				const workerUrl = form.dataset.workerUrl;
+				const turnstileKey = form.dataset.turnstileKey;
+				const turnstileContainer = document.querySelector('[data-turnstile-container]');
+
+				// Render Turnstile widget
+				if (window.turnstile && turnstileKey !== '0x0') {
+					window.turnstile.render(turnstileContainer, {
+						sitekey: turnstileKey,
+						callback: function(token) {
+							form.dataset.turnstileToken = token;
+						},
+					});
+				}
+
+				form.addEventListener('submit', async function(e) {
+					e.preventDefault();
+					status.className = 'form-status';
+					status.style.display = 'none';
+
+					const token = form.dataset.turnstileToken;
+					if (!token) {
+						status.textContent = 'Please complete the CAPTCHA verification.';
+						status.classList.add('error');
+						return;
+					}
+
+					submitBtn.disabled = true;
+					submitBtn.textContent = 'Sending...';
+
+					try {
+						const res = await fetch(workerUrl, {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: JSON.stringify({
+								turnstileToken: token,
+								name: form.name.value,
+								email: form.email.value,
+								subject: form.subject.value,
+								message: form.message.value,
+							}),
+						});
+
+						const data = await res.json();
+
+						if (data.success) {
+							status.textContent = 'Thank you! Your message has been sent.';
+							status.classList.add('success');
+							form.reset();
+							if (window.turnstile) {
+								window.turnstile.reset();
+							}
+							delete form.dataset.turnstileToken;
+						} else {
+							status.textContent = data.error || 'Something went wrong. Please try again.';
+							status.classList.add('error');
+						}
+					} catch (err) {
+						status.textContent = 'Network error. Please try again.';
+						status.classList.add('error');
+					} finally {
+						submitBtn.disabled = false;
+						submitBtn.textContent = 'Send Message';
+					}
+				});
+			})();
+		</script>
+	</body>
+</html>
