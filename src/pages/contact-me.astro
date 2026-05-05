@@ -93,8 +93,13 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 				color: #721c24;
 				display: block;
 			}
-			.turnstile-container {
+			.turnstile-wrapper {
+				display: inline-block;
+				border: 2px solid rgb(var(--gray-light));
+				border-radius: 6px;
+				overflow: hidden;
 				margin-bottom: 1.5em;
+				background: #ffffff;
 			}
 			.checkbox-group label {
 				display: flex;
@@ -161,7 +166,9 @@ const TURNSTILE_SITE_KEY = '0x4AAAAAADJo9JHc2hK_yNGW';
 							I consent to my data being stored and processed per the <a href="/privacy-policy/">Privacy Policy</a>.
 						</label>
 					</div>
-					<div class="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-callback="turnstileCallback"></div>
+					<div class="turnstile-wrapper">
+						<div class="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-callback="turnstileCallback" data-theme="light" data-size="compact"></div>
+					</div>
 					<button type="submit" id="submitBtn">Send Message</button>
 					<div class="form-status" id="formStatus"></div>
 				</form>
